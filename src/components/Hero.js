@@ -11,19 +11,19 @@ export async function Hero() {
   // const data = await getData();
   return (
     <div>
-      <section className="pt-[100px] pb-[100px] bg-[#F4F7FE]">
+      <section className="pt-[100px] pb-[20px] bg-[#D7F5DC]">
         <div className="container mx-auto">
           <div className="grid grid-cols-12  justify-between items-center gap-[30px]">
             <div className="col-span-6">
               <h2 className="text-5xl font-semibold mb-7">
-                Increase Your
                 <span className="relative after:bg-amber-400/60 after:h-6 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10">
-                  Customers Loyalty
+                  Increase Your <br />
+                  Customers Loyalty <br />
+                  and Satisfaction
                 </span>
-                and Satisfaction
               </h2>
               <p className="text-gray-600 leading-7">
-                We help buisness like yours earn more customers, standout from
+                We help businesses like yours earn more customers, standout from
                 competitors, make more money
               </p>
               <div className="flex flex-wrap items-center mt-16 gap-6">
@@ -40,6 +40,15 @@ export async function Hero() {
                   className="object-cover"
                 />
               </div>
+            </div>
+          </div>
+          <div className="mt-[80px] mb-[20px] bg-[#F8FFF9] w-full h-auto ml-auto">
+            <div className="py-[50px] flex gap-[150px] justify-center items-center ">
+              <img src="/assets/logos_google.png" alt="" />
+              <img src="/assets/Trello-logo-blue 1.png" alt="" />
+              <img src="/assets/logos_monday.png" alt="" />
+              <img src="/assets/Notion.png" alt="" />
+              <img src="/assets/Slack.png" alt="" />
             </div>
           </div>
         </div>
