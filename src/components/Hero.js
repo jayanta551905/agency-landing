@@ -42,14 +42,14 @@ export async function Hero() {
               </div>
             </div>
           </div>
-          <div className="mt-[80px] mb-[20px] bg-[#F8FFF9] w-full h-auto ml-auto">
-            <div className="py-[50px] flex gap-[150px] justify-center items-center ">
-              <img src="/assets/logos_google.png" alt="" />
-              <img src="/assets/Trello-logo-blue 1.png" alt="" />
-              <img src="/assets/logos_monday.png" alt="" />
-              <img src="/assets/Notion.png" alt="" />
-              <img src="/assets/Slack.png" alt="" />
-            </div>
+        </div>
+        <div className="block mt-[80px] mb-[20px] bg-[#F8FFF9] w-full h-auto ml-auto">
+          <div className="py-[50px] flex gap-[150px] justify-center items-center ">
+            <img src="/assets/logos_google.png" alt="" />
+            <img src="/assets/Trello-logo-blue 1.png" alt="" />
+            <img src="/assets/logos_monday.png" alt="" />
+            <img src="/assets/Notion.png" alt="" />
+            <img src="/assets/Slack.png" alt="" />
           </div>
         </div>
       </section>
