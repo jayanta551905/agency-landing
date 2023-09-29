@@ -49,15 +49,19 @@ export default function Testimonials() {
                 </h2>
               </div>
             </div>
-            <div className="container mx-auto justify-between items-center">
-              <div className="grid grid-cols-12  gap-[30px] mb-[90px]">
+            <div className="container mt-[120px] mx-auto justify-between items-center mb-[65px]">
+              <div className="grid grid-cols-12 gap-[29px]">
                 <div className="col-span-4 ">
-                  <div className="shadow-xl rounded-xl justify-center items-center">
-                    <div className="">
-                      <img src="/assets/testmonials-1.png" alt="image" />
-                    </div>
-                    <div>
-                      <div className="text-center  text-[16px] mt-[30px] pb-[40px]">
+                  <div>
+                    <div className="shadow-lg w-full mx-auto justify-center items-center text-center rounded-lg py-[48px]">
+                      <div className="flex justify-center items-center">
+                        <img
+                          src="/assets/testmonials-1.png"
+                          alt="image"
+                          className="flex justify-center items-center"
+                        />
+                      </div>
+                      <div className="text-[16px] font-semibold mt-[22px] text-[#9D9D9D]">
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit. Pellentesque et placerat metus. Morbi aliquet
@@ -65,22 +69,26 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="text-center font-semibold text-[26px] text-gray-900 mt-[25px] mb-[10px]">
-                        <h2>Alice Bradley</h2>
+                      <div className="mt-[5px]">
+                        <p>Alice Bradley</p>
                       </div>
-                      <div className="text-center pb-[50px]">
+                      <div className="mt-[5px]">
                         <p>Backend Developer</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-span-4">
-                  <div className="shadow-xl rounded-xl justify-center items-center">
-                    <div classname="ml-[135px]">
-                      <img src="/assets/testmonials-2.png" alt="image" />
-                    </div>
-                    <div>
-                      <div className="text-center  text-[16px] mt-[30px] pb-[40px]">
+                <div className="col-span-4 ">
+                  <div>
+                    <div className="shadow-lg w-full mx-auto justify-center items-center text-center rounded-lg py-[48px]">
+                      <div className="flex justify-center items-center">
+                        <img
+                          src="/assets/testmonials-2.png"
+                          alt="image"
+                          className="flex justify-center items-center"
+                        />
+                      </div>
+                      <div className="text-[16px] font-semibold mt-[22px] text-[#9D9D9D]">
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit. Pellentesque et placerat metus. Morbi aliquet
@@ -88,22 +96,26 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="text-center font-semibold text-[26px] text-gray-900 mt-[25px] mb-[10px]">
-                        <h2>Alice Bradley</h2>
+                      <div className="mt-[5px]">
+                        <p>Alice Bradley</p>
                       </div>
-                      <div className="text-center pb-[50px]">
+                      <div className="mt-[5px]">
                         <p>Backend Developer</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-span-4">
-                  <div className="shadow-xl rounded-xl justify-center items-center">
-                    <div classname="pl-[135px]">
-                      <img src="/assets/testmonials-3.png" alt="image" />
-                    </div>
-                    <div>
-                      <div className="text-center  text-[16px] mt-[30px] pb-[40px]">
+                <div className="col-span-4 ">
+                  <div>
+                    <div className="shadow-lg w-full mx-auto justify-center items-center text-center rounded-lg py-[48px]">
+                      <div className="flex justify-center items-center">
+                        <img
+                          src="/assets/testmonials-3.png"
+                          alt="image"
+                          className="flex justify-center items-center"
+                        />
+                      </div>
+                      <div className="text-[16px] font-semibold mt-[22px] text-[#9D9D9D]">
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit. Pellentesque et placerat metus. Morbi aliquet
@@ -111,86 +123,92 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="text-center font-semibold text-[26px] text-gray-900 mt-[25px] mb-[10px]">
-                        <h2>Alice Bradley</h2>
+                      <div className="mt-[5px]">
+                        <p>Alice Bradley</p>
                       </div>
-                      <div className="text-center pb-[50px]">
+                      <div className="mt-[5px]">
                         <p>Backend Developer</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-span-4">
+                <div className="col-span-4 ">
                   <div>
-                    <div className="shadow-xl rounded-xl justify-center items-center">
-                      <div classname="pl-[135px]">
-                        <img src="/assets/testmonials-4.png" alt="image" />
+                    <div className="shadow-lg w-full mx-auto justify-center items-center text-center rounded-lg py-[48px]">
+                      <div className="flex justify-center items-center">
+                        <img
+                          src="/assets/testmonials-4.png"
+                          alt="image"
+                          className="flex justify-center items-center"
+                        />
                       </div>
-                      <div>
-                        <div className="text-center  text-[16px] mt-[30px] pb-[40px]">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Pellentesque et placerat metus. Morbi aliquet
-                            felis sit amet erat finibus, ac condimentum ligula
-                            ornare.
-                          </p>
-                        </div>
-                        <div className="text-center font-semibold text-[26px] text-gray-900 mt-[25px] mb-[10px]">
-                          <h2>Alice Bradley</h2>
-                        </div>
-                        <div className="text-center pb-[50px]">
-                          <p>Backend Developer</p>
-                        </div>
+                      <div className="text-[16px] font-semibold mt-[22px] text-[#9D9D9D]">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Pellentesque et placerat metus. Morbi aliquet
+                          felis sit amet erat finibus, ac condimentum ligula
+                          ornare.
+                        </p>
+                      </div>
+                      <div className="mt-[5px]">
+                        <p>Alice Bradley</p>
+                      </div>
+                      <div className="mt-[5px]">
+                        <p>Backend Developer</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-span-4">
+                <div className="col-span-4 ">
                   <div>
-                    <div className="shadow-xl rounded-xl justify-center items-center">
-                      <div classname="pl-[135px]">
-                        <img src="/assets/testmonials-5.png" alt="image" />
+                    <div className="shadow-lg w-full mx-auto justify-center items-center text-center rounded-lg py-[48px]">
+                      <div className="flex justify-center items-center">
+                        <img
+                          src="/assets/testmonials-5.png"
+                          alt="image"
+                          className="flex justify-center items-center"
+                        />
                       </div>
-                      <div>
-                        <div className="text-center  text-[16px] mt-[30px] pb-[40px]">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Pellentesque et placerat metus. Morbi aliquet
-                            felis sit amet erat finibus, ac condimentum ligula
-                            ornare.
-                          </p>
-                        </div>
-                        <div className="text-center font-semibold text-[26px] text-gray-900 mt-[25px] mb-[10px]">
-                          <h2>Alice Bradley</h2>
-                        </div>
-                        <div className="text-center pb-[50px]">
-                          <p>Backend Developer</p>
-                        </div>
+                      <div className="text-[16px] font-semibold mt-[22px] text-[#9D9D9D]">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Pellentesque et placerat metus. Morbi aliquet
+                          felis sit amet erat finibus, ac condimentum ligula
+                          ornare.
+                        </p>
+                      </div>
+                      <div className="mt-[5px]">
+                        <p>Alice Bradley</p>
+                      </div>
+                      <div className="mt-[5px]">
+                        <p>Backend Developer</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-span-4">
+                <div className="col-span-4 ">
                   <div>
-                    <div className="shadow-xl rounded-xl justify-center items-center">
-                      <div classname="pl-[135px]">
-                        <img src="/assets/testmonials-6.png" alt="image" />
+                    <div className="shadow-lg w-full mx-auto justify-center items-center text-center rounded-lg py-[48px]">
+                      <div className="flex justify-center items-center">
+                        <img
+                          src="/assets/testmonials-6.png"
+                          alt="image"
+                          className="flex justify-center items-center"
+                        />
                       </div>
-                      <div>
-                        <div className="text-center  text-[16px] mt-[30px] pb-[40px]">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Pellentesque et placerat metus. Morbi aliquet
-                            felis sit amet erat finibus, ac condimentum ligula
-                            ornare.
-                          </p>
-                        </div>
-                        <div className="text-center font-semibold text-[26px] text-gray-900 mt-[25px] mb-[10px]">
-                          <h2>Alice Bradley</h2>
-                        </div>
-                        <div className="text-center pb-[50px]">
-                          <p>Backend Developer</p>
-                        </div>
+                      <div className="text-[16px] font-semibold mt-[22px] text-[#9D9D9D]">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Pellentesque et placerat metus. Morbi aliquet
+                          felis sit amet erat finibus, ac condimentum ligula
+                          ornare.
+                        </p>
+                      </div>
+                      <div className="mt-[5px]">
+                        <p>Alice Bradley</p>
+                      </div>
+                      <div className="mt-[5px]">
+                        <p>Backend Developer</p>
                       </div>
                     </div>
                   </div>
