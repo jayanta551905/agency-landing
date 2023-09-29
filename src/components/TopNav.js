@@ -13,7 +13,7 @@ export default function TopNav() {
                 <h1 className="text-[#F55F1D]">AGENCY</h1>
               </Link>
             </div>
-            <div className="ms-auto flex justify-center items-center gap-[50px]">
+            <div className="mx-auto flex justify-center items-center gap-[50px]">
               <ul className="flex gap-[40px] items-center justify-center">
                 <li className="nav-item">
                   <Link className="navlink" href="/">
@@ -21,32 +21,32 @@ export default function TopNav() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="navlink" href="#">
+                  <Link className="navlink" href="/team">
                     Team
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="navlink" href="#">
+                  <Link className="navlink" href="/services">
                     Service
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="navlink" href="#">
+                  <Link className="navlink" href="/projects">
                     Projects
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="navlink" href="/contact">
+                  <Link className="navlink" href="/testimonials">
                     Testimonials
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/login"} className="btnLogin">
+                  <Link href={"#"} className="btnLogin">
                     Login
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/resister"} className="btnResister">
+                  <Link href={"#"} className="btnResister">
                     Resister
                   </Link>
                 </li>

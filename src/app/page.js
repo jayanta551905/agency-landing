@@ -1,15 +1,17 @@
+import FutureProjects from "@/components/FutureProjects";
 import { Hero } from "@/components/Hero";
 import LikeSection from "@/components/LikeSection";
-import TopNav from "@/components/TopNav";
+import SubscribeSection from "@/components/SubscribeSection";
 import WorkList from "@/components/WorkList";
 
 export default function Home() {
   return (
     <div>
-      <TopNav />
       <Hero />
       <WorkList />
       <LikeSection />
+      <FutureProjects />
+      <SubscribeSection />
     </div>
   );
 }
