@@ -1,14 +1,13 @@
-import Link from "next/link";
-// async function getData() {
-//   const res = await fetch(process.env.BASE_URL + "api/HeroList");
-//   if (!res.ok) {
-//     throw new Error("HeroList Calling Fail");
-//   }
-//   return res.json();
-// }
+async function getData() {
+  const res = await fetch(process.env.BASE_URL + "/HeroList");
+  if (!res.ok) {
+    throw new Error("HeroList Calling Fail");
+  }
+  return res.json();
+}
 
 export async function Hero() {
-  // const data = await getData();
+  const data = await getData();
   return (
     <div>
       <section className="pt-[100px] pb-[20px] bg-[#D7F5DC]">
@@ -17,15 +16,10 @@ export async function Hero() {
             <div className="col-span-6">
               <h2 className="text-5xl font-semibold mb-7">
                 <span className="relative after:bg-amber-400/60 after:h-6 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10">
-                  Increase Your <br />
-                  Customers Loyalty <br />
-                  and Satisfaction
+                  {data.title}
                 </span>
               </h2>
-              <p className="text-gray-600 leading-7">
-                We help businesses like yours earn more customers, standout from
-                competitors, make more money
-              </p>
+              <p className="text-gray-600 leading-7">{data["description"]}</p>
               <div className="flex flex-wrap items-center mt-16 gap-6">
                 <a href="#" className="myBtn">
                   Get Started
@@ -33,12 +27,31 @@ export async function Hero() {
               </div>
             </div>
             <div className="col-span-6">
-              <div className="img w-full h-auto ml-auto">
-                <img
-                  src="/assets/hero_img.png"
-                  alt=""
-                  className="object-cover"
-                />
+              <div className="col-span-3">
+                <div className="flex">
+                  <img
+                    className="w-full md:w-1/2 lg:w-1/3 h-64 p-2 object-cover rounded-4xl lg:rounded-br-none"
+                    src={data["image1"]}
+                    alt="image"
+                  />
+                  <img
+                    className="w-full md:w-1/2 lg:w-2/3 h-64 p-2 object-cover rounded-4xl lg:rounded-bl-none"
+                    src={data["image2"]}
+                    alt="image"
+                  />
+                </div>
+                <div className="flex">
+                  <img
+                    className="w-full md:w-1/2 lg:w-2/3 h-64 p-2 object-cover rounded-4xl lg:rounded-br-none"
+                    src={data["image3"]}
+                    alt="image"
+                  />
+                  <img
+                    className="w-full md:w-1/2 lg:w-1/3 h-64 p-2 object-cover rounded-4xl lg:rounded-bl-none"
+                    src={data["image4"]}
+                    alt="image"
+                  />
+                </div>
               </div>
             </div>
           </div>
