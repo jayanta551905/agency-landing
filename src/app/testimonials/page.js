@@ -69,7 +69,7 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="mt-[5px]">
+                      <div className="mt-[5px] font-semibold text-[26px]">
                         <p>Alice Bradley</p>
                       </div>
                       <div className="mt-[5px]">
@@ -96,7 +96,7 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="mt-[5px]">
+                      <div className="mt-[5px] font-semibold text-[26px]">
                         <p>Alice Bradley</p>
                       </div>
                       <div className="mt-[5px]">
@@ -123,7 +123,7 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="mt-[5px]">
+                      <div className="mt-[5px] font-semibold text-[26px]">
                         <p>Alice Bradley</p>
                       </div>
                       <div className="mt-[5px]">
@@ -150,7 +150,7 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="mt-[5px]">
+                      <div className="mt-[5px] font-semibold text-[26px]">
                         <p>Alice Bradley</p>
                       </div>
                       <div className="mt-[5px]">
@@ -177,7 +177,7 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="mt-[5px]">
+                      <div className="mt-[5px] font-semibold text-[26px]">
                         <p>Alice Bradley</p>
                       </div>
                       <div className="mt-[5px]">
@@ -204,7 +204,7 @@ export default function Testimonials() {
                           ornare.
                         </p>
                       </div>
-                      <div className="mt-[5px]">
+                      <div className="mt-[5px] font-semibold text-[26px]">
                         <p>Alice Bradley</p>
                       </div>
                       <div className="mt-[5px]">
